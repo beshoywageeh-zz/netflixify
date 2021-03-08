@@ -1,0 +1,92 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflixify</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="dist/css/vendor.min.css" />
+  <link rel="stylesheet" href="dist/css/main.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+</head>
+
+<body>
+  <section id="banner">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Netflix<span class="text-primary font-weight-bold">ify</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form action="" class="col-12 col-md-6 me-auto p-0 mt-1">
+            <div class="input-group">
+              <input type="search" class="form-control bg-transparent border-0"
+                placeholder="Search For Your Favourite Movie" aria-label="Search For Your Favourite Movie"
+                aria-describedby="basic-addon2">
+              <span class="input-group-text bg-transparent border-0" id="basic-addon2"><i
+                  class="fa fa-search text-white"></i></span>
+            </div>
+          </form>
+          <ul class="navbar-nav ml-auto">
+            <a href="login.html" class="btn btn-primary mb-2 mb-md-0 me-0 me-md-2">Login</a>
+            <a href="register.html" class="btn btn-outline-light">Register</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="movies">
+      <div class="movie text-white d-flex justify-content-center align-items-center">
+        <div class="movie__bg"></div>
+        <div class="contanier">
+          <div class="row">
+            <div class="col-md-6 m-auto">
+              <div class="d-flex justify-content-between">
+                <h1 class="movie__name fw-300">Avengers: EndGame</h1>
+                <span class="movie__year align-self-center">2019</span>
+              </div>
+              <div class="d-flex movie__rating my-2">
+                <div class="d-flex">
+                  <span class="fas fa-star text-primary me-3"></span>
+                  <span class="fas fa-star text-primary me-3"></span>
+                  <span class="fas fa-star text-primary me-3"></span>
+                  <span class="fas fa-star text-primary me-3"></span>
+                  <span class="fas fa-star text-primary me-3"></span>
+                </div>
+                <span class="align-self-center">4.7</span>
+              </div>
+              <p class="movie__description fw-300 my-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores ex nesciunt cum commodi id alias,
+                nobis quam enim porro dolore facilis saepe sit voluptatem itaque molestiae est at quaerat. Eum, aliquid.
+                Beatae dolorum dolores rerum quae ad tenetur nulla accusamus distinctio fugiat, atque recusandae,
+                dolorem laboriosam natus dicta eos ex.
+              </p>
+              <div class="movie__cta mt-2">
+                <a href="" class="btn btn-primary text-white ms-0 me-md-2"><span class="fas fa-play"> </span> Watch
+                  Now</a>
+                <a href="" class="btn btn-outline-light"><i class="fas fa-heart"></i> Add To Favourite</a>
+              </div>
+            </div>
+            <div class="col-6 mt-2 mx-auto col-md-3 ml-md-auto mr-md-0">
+              <img src="dist/images/endgameposter.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="dist/js/jquery.min.js"></script>
+  <script src="dist/js/bootstrap.min.js"></script>
+  <script src="dist/js/vendor.min.js"></script>
+  <script src="dist/js/main.min.js"></script>
+</body>
+
+</html>
